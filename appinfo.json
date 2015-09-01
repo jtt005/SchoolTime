@@ -77,7 +77,7 @@
             },
             {
                 "file": "fonts/Roboto-BoldCondensed.ttf",
-                "name": "FONT_ROBOTO_CONDENSED_SUBSET_17",
+                "name": "FONT_ROBOTO_CONDENSED_SUBSET_19",
                 "type": "font"
             },
             {
@@ -87,7 +87,7 @@
             },
             {
                 "file": "fonts/Roboto-BoldCondensed.ttf",
-                "name": "FONT_ROBOTO_CONDENSED_SUBSET_19",
+                "name": "FONT_ROBOTO_CONDENSED_SUBSET_17",
                 "type": "font"
             }
         ]
