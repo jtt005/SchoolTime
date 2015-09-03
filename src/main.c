@@ -98,20 +98,20 @@ The structs below are in the following format.
 **Period Names are set in the app configuration page. 
 */
 struct periodInfo normalInfo[] = { 
-    {1, TIME(7,45),  TIME(8,30)},
-	{2, TIME(8,35),  TIME(9,20)},
-	{3, TIME(9,25),  TIME(10,10)},
-	{4, TIME(10,15),  TIME(11,05)},
-	{5, TIME(11,10),  TIME(12,00)},
-	{6, TIME(12,05),  TIME(12,50)},
-	{7, TIME(12,55), TIME(13,40)},
-	{8, TIME(13,45), TIME(14,30)}
+    {1, TIME(8,00),  TIME(8,45)},
+	{2, TIME(8,50),  TIME(9,45)},
+	{3, TIME(9,50),  TIME(10,35)},
+	{4, TIME(10,40),  TIME(11,25)},
+	{5, TIME(11,30),  TIME(12,55)},
+	{6, TIME(13,00),  TIME(13,45)},
+	{7, TIME(13,50), TIME(14,35)},
+	{8, TIME(14,40), TIME(15,25)}
 };
 #define INFO_SIZE (sizeof(normalInfo)/sizeof(struct periodInfo))
 	
 
-#define NORMAL_START TIME(7,45)//Enter Normal Day Start Time
-#define NORMAL_END   TIME(14,30)//Enter Normal Day End Time
+#define NORMAL_START TIME(8,00)//Enter Normal Day Start Time
+#define NORMAL_END   TIME(15,25)//Enter Normal Day End Time
 
 	
 //The Delay info and early release info follow the same format as what was stated above. 
